@@ -1,4 +1,6 @@
 ﻿using System;
+using FirstNameSpace;
+using FirstNameSpace.SecondNameSpace;
 
 namespace FirstNameSpace
 {
@@ -26,15 +28,17 @@ namespace HelloWorld
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Khai bao doi tuong tu class
-            FirstNameSpace.Intro intro = new FirstNameSpace.Intro();
-            FirstNameSpace.SecondNameSpace.Introduction introduction = new FirstNameSpace.SecondNameSpace.Introduction();
+        //static void Main(string[] args)
+        //{
+        //    // Khai bao doi tuong tu class
+        //    Intro intro = new FirstNameSpace.Intro();
+        //    Introduction introduction = new FirstNameSpace.SecondNameSpace.Introduction();
 
-            // In ket qua ra console
-            intro.sayHello();
-            introduction.sayHello();
-        }
+        //    // In ket qua ra console
+        //    intro.sayHello();
+        //    introduction.sayHello();
+
+        //    Console.ReadLine();
+        //}
     }
 }
